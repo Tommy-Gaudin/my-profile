@@ -1,0 +1,39 @@
+h1 {font-family: Clarendon;
+	color:#3D505A;
+	text-align: center;}
+
+h2 {font-family: Clarendon;
+	color:#3D505A;
+	font-weight: lighter; }
+
+p, li, a  {font-family: Rubik;}
+
+body{background:#f6f6f6;
+	text-align: center;} 
+
+a {color:#3D505A ;
+	text-decoration:none ; 
+	transition: color 0.3s ease;}
+a:hover {color:#11BFD5 }
+
+div{background: white;
+	margin: 100px 100px ;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px;}
+
+#photo {border-radius: 50%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;}
+
+@media (max-width: 960px){
+.container{width: 700px;}
+}
+@media (max-width: 720px){
+.container{width: 500px;}
+}
+@media (max-width: 540px){
+.container{width: 300px;}
+}
+
